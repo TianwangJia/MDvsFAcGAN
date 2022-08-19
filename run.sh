@@ -1,0 +1,11 @@
+python3 train.py \
+ --n_epochs=30 \
+ --train_data_path="/root/autodl-tmp/data/MDvsFA_train"\
+ --test_data_path="/root/autodl-tmp/data/test"\
+ --output_path="/root/autodl-tmp/output"\
+ --log_path="/root/autodl-tmp/log"\
+ --batch_size=10\
+ --test_batch_size=5\
+ --sample_interval=10\
+ --test_interval=10\
+ --checkpoint_interval=3\
